@@ -1,0 +1,133 @@
+/* 
+    Document   : style
+    Created on : 6-mrt-2013, 20:49:38
+    Author     : Jelle
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+@font-face {
+    font-family: 'bebas';
+    src: url('fonts/bebasneue-webfont.eot');
+    src: url('fonts/bebasneue-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/bebasneue-webfont.woff') format('woff'),
+        url('fonts/bebasneue-webfont.ttf') format('truetype'),
+        url('fonts/bebasneue-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'hattori_italic';
+    src: url('fonts/hattori_hanzo_italic-webfont.eot');
+    src: url('fonts/hattori_hanzo_italic-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/hattori_hanzo_italic-webfont.woff') format('woff'),
+        url('fonts/hattori_hanzo_italic-webfont.ttf') format('truetype'),
+        url('fonts/hattori_hanzo_italic-webfont.svg#hattori_hanzolight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'hattori';
+    src: url('fonts/hattori_hanzo-webfont.eot');
+    src: url('fonts/hattori_hanzo-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/hattori_hanzo-webfont.woff') format('woff'),
+        url('fonts/hattori_hanzo-webfont.ttf') format('truetype'),
+        url('fonts/hattori_hanzo-webfont.svg#hattori_hanzolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+root { 
+    display: block;
+}
+
+body{
+    color: #0c0c0c;
+    font-family: hattori;
+    text-align: justify;
+    background-image:url("images/subtleNoise.jpg");
+}
+
+h1{
+    color:#0c0c0c;
+    font-family:bebas;
+    font-weight:100;
+    font-size:xx-large;
+}
+
+h2{
+    color:#0c0c0c;
+    font-family:bebas;
+    font-weight:100;
+    font-size:x-large;
+}
+
+emph{
+    color: #00aaff;
+}
+
+hr{
+    color:#0c0c0c;
+    background-color:#0c0c0c;
+    height:2px;
+    border:0;
+}
+
+div#wrapper{
+    overflow:auto;
+    margin: 0 auto 0 auto;
+    width: 1280px;
+}
+
+div#topBar{
+    height:80px;
+    color: #e6e6e6;
+    padding: 4px 4px 4px 4px;
+    background-color: #0c0c0c;
+}
+
+div.menuOption{
+    margin: 4px 12px 0px 4px;
+    padding: 2px;
+    float: left;
+}
+
+div.menuOption:hover{
+    background-color:#00aaff;
+    margin: 4px 12px 0px 4px;
+    padding: 2px;
+    float: left;
+}
+
+div.menuOptionSelected{
+    color:#0c0c0c;
+    margin: 4px 12px 0px 4px;
+    padding: 2px;
+    background-color:#00aaff;
+    float: left;
+}
+
+div#content{
+    background-color: #ffffff;
+    padding: 8px 24px 8px 24px;
+}
+
+div#footerTop{
+
+    padding: 8px 24px 48px 24px;
+    border-width: 1px 0px 0px 0px;
+    border-style: solid;
+    border-color: #cccccc;
+    background-color: #f2f2f2;
+}
+
+div#footer{
+    color: #f2f2f2;
+    padding: 4px 8px 4px 8px;
+    background-color: #0c0c0c;
+}
